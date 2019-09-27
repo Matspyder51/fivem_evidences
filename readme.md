@@ -1,6 +1,6 @@
 This script will create evidences for few things like Blood, Weapon Magazines ...
 
-I will not provide support for people who're not even able to install a resource, it's not complicated to use
+I will not provide support for people who're not even able to install a resource, it's not complicated to use, same for peoples who will ask : Did it work with ESX ?
 
 It's an Alpha
 =============
