@@ -264,8 +264,7 @@ setTick(() => {
 					} else if (ev.type == EvidenceTypes.BLOOD) {
 						ShowNotification(`DNA Check match with Citizen ${ev.owner}`);
 					}
-					const index = EvidencesList.indexOf(ev);
-					EvidencesList.splice(index, 1);
+					emitNet('evidences:removeEvidence', ev.id);
 				}, 1500);
 			}
 		}
@@ -427,7 +426,7 @@ onNet('evidences:update', (evidence) => {
 	}
 });
 
-onNet('evidences:remove', (id) => {
+onNet('evidences:delete', (id) => {
 	const [ev, key] = getById(id);
 	if (ev != null) {
 		EvidencesList.splice(key, 1);
