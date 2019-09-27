@@ -1,5 +1,7 @@
 This script will create evidences for few things like Blood, Weapon Magazines ...
 
+I will not provide support for people who're not even able to install a resource, it's not complicated to use
+
 It's an Alpha
 =============
 That haven't been tested online with other players because I can't, so it will probably have a lot of bugs, feel free to report them or even fix them if you can
